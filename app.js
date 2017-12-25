@@ -13,8 +13,8 @@ var server = http.createServer(function (req, res) {
 var io = require('socket.io').listen(server);
 
 // Quand un client se connecte, on le note dans la console
-io.sockets.on('connexion', function(socket) {
-	console.log('Un client vient de se connecter');
+io.sockets.on('connection', function(socket) {
+	socket.emit('message', 'Vous êtes bien connectés!');
 });
 
 server.listen(8080);

@@ -1,8 +1,8 @@
 {
-  "name": "socket.io",
+  "name": "appliSocket",
   "version": "1.0.0",
   "description": "une petite application avec socket.io",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MatthieuKT/socket.io/issues"
   },
-  "homepage": "https://github.com/MatthieuKT/socket.io#readme"
+  "homepage": "https://github.com/MatthieuKT/socket.io#readme",
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  }
 }
