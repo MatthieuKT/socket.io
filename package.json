@@ -1,0 +1,19 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "une petite application avec socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthieuKT/socket.io.git"
+  },
+  "author": "Kwant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthieuKT/socket.io/issues"
+  },
+  "homepage": "https://github.com/MatthieuKT/socket.io#readme"
+}
