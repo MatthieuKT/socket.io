@@ -4,7 +4,8 @@
   "description": "une petite application avec socket.io",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/MatthieuKT/socket.io#readme",
   "dependencies": {
+    "nodemon": "^1.14.3",
     "socket.io": "^2.0.4"
   }
 }
